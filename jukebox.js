@@ -1,8 +1,4 @@
 /*
---------------------------------PART ONE-------------------------------------
-*/
-
-/*
 -------------------------
 OVERVIEW
 -------------------------
@@ -49,11 +45,6 @@ function parseNote(str){ //This function parses a string called notes
     if (isNaN(b) == true){
       b = 1;
     }
-    //console.log(p, b); // Console logs p and b
-    //console.log(`${pitch} ${p}, ${beats} ${b}`);
-    // Make each one into an array
-    //let together = `${pitch} ${p}, ${beats} ${b}`;
-    //phrase.push(together); //push pieces together into array
     let together = {
       pitch: p,
       beats: b
@@ -65,67 +56,3 @@ function parseNote(str){ //This function parses a string called notes
 }
 
 parseSong(notes);
-
-
-/*
---------------------------------PART TWO-------------------------------------
-*/
-
-/*
--------------------------
-INSTRUCTIONS
--------------------------
-Parse a whole song string
-Write a function called parseSong
-Takes a song string as above, and returns an array of note objects
-parseSong function uses parseNote function
-*/
-
-// function parseSong(func){ //This function parses a function
-//     songArray = [func];
-//   }
-//
-// console.log(parseSong(parseNote()));
-
-/*
---------------------------------PART THREE-----------------------------------
-*/
-
-/*
--------------------------
-INSTRUCTIONS
--------------------------
-Create an html page the prompts user for song string and plays song
-*/
-
-/*
--------------------------
-CODE SNIPPETS
--------------------------
-*/
-
-// Tic tac toe
-// let row1 = [col1, col2, col3];
-// let row2 = [col1, col2, col3];
-// let row3 = [col1, col2, col3];
-//
-// let tictactoe = [row1, row2, row3];
-//
-// let result = tictactoe[0] // returns [col1, col2, col3]
-// result[0]; // returns row1, col1
-//
-// tictactoe[0][0] = "X" // places X at that part of the game board.
-
-
-// let headers = "id,first name,last name,email";
-// let data = "1,jane,doe,wildmirror@yahoo.com";
-//
-// let header_arr = headers.split(",");
-// let data_arr = data.split(",");
-// let user = {};
-//
-// for (let i = 0; i < header_arr.length; i++) {
-//   user[header_arr[i]] = data_arr[i];
-// }
-//
-// console.log(user);
